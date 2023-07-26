@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{3091a3ef-c544-4915-9c29-8e1a2f470d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{dbd34623-d281-45c2-b654-9e6b2cc7b9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BG">
+      <UniqueIdentifier>{9ba4659e-8022-455d-8a49-52cf075b0160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{92f06ccd-7ee7-48e3-bedf-57715b0ea8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemy">
+      <UniqueIdentifier>{3b785ee6-eac2-4c3c-884a-991a55e9227b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ObjectPool">
+      <UniqueIdentifier>{ea520007-eea7-4c3e-b87f-4956d39ce59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{9928968f-78df-4ad1-9e76-641b5321f443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{eb124d5b-e1e4-443c-a8a7-5dc849b5e969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BG">
+      <UniqueIdentifier>{305cc01e-9ce6-4da3-8894-879a2e3f3cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enemy">
+      <UniqueIdentifier>{662e29b4-a2dd-4c0e-a4ef-3ea6eb5c33bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{d7e3a6d6-91c6-4f31-8938-942c3e3fd1bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ObjectPool">
+      <UniqueIdentifier>{04826826-3c60-4c8f-a577-9cca28ecdedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{7c6238d5-5558-47bb-8c39-d123d12d49c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{c8eefd5d-ef01-4445-8de0-8a47862bd9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{5fd517b0-c507-42d5-8888-b8cc30231ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{a6a18257-a755-4f6f-a4b9-53796c033c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{25aa7529-26f3-4bf0-9163-ace79f209ac5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AGameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericInputController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyGameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScreen.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitScreen.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButtonInputController.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIText.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDScreen.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMovement.cpp">
+      <Filter>Source Files\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="BGObject.cpp">
+      <Filter>Source Files\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="AirplaneSupportMovement.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInputController.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMovement.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBehavior_A.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySwarmHandler_A.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectPool.cpp">
+      <Filter>Source Files\ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="APoolable.cpp">
+      <Filter>Source Files\ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPoolHolder.cpp">
+      <Filter>Source Files\ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplePopupScreen.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererFactory.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRendererFactory.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBehavior_B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySwarmHandler_B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBehavior_C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySwarmHandler_C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundsListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ACar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CarPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDUpdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCar_A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCar_B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCar_C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAudioHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAudioHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BonusCar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySwarmHandler_D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTruck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySwarmHandler_E.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Media\Textures\Desert.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\Eagle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\Raptor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\b_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\b_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\b_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\b_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\b_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\b_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\b_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\b_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\bar_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\bar_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\field.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\l1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\l2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\s1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\s2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\Avenger.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\TitleScreenBG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\hud_bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\car-enemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\car-enemy2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\car-player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\course_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\crash1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\crash2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\crash3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\enemy_car1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\flag1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\flag2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\fuel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\goal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\icon1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\icon2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\sidemap_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\course_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\truck.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\SpriteSheets\ss_roadfighter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\SpriteSheets\SpriteSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\black_bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\stir.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\ss_RF.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\SpriteSheets\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Media\Textures\SpriteSheets\roadfighter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Media\Sansation.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Media\Fonts\Pixeled.ttf" />
+    <Font Include="Media\Fonts\konami.ttf" />
+    <Font Include="Media\Fonts\kon.ttf" />
+    <Font Include="Media\Fonts\Sansation.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericInputController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BGMovement.h">
+      <Filter>Header Files\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="BGObject.h">
+      <Filter>Header Files\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCar_A.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBehavior_A.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySwarmHandler_A.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererFactory.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="APoolable.h">
+      <Filter>Header Files\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectPool.h">
+      <Filter>Header Files\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPoolHolder.h">
+      <Filter>Header Files\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDScreen.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScreen.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="QuitScreen.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIText.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButtonInputController.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplePopupScreen.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AirplaneSupport.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AirplaneSupportMovement.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInputController.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovement.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonListener.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionListener.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ARendererFactory.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRendererFactory.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCar_B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBehavior_B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySwarmHandler_B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCar_C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBehavior_C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySwarmHandler_C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundsListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ACar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAudioHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAudioHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusCar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySwarmHandler_D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTruck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySwarmHandler_E.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Media\Textures\Eagle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="NewFile.txt" />
+    <Text Include="NewFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Media\Audio\accelerating.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\max-speed.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\player-skidding.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\Road Fighter (1985-07-11)(Konami) [10].wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\start-countdown.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\start-signal.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\max_speed.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\goal.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\countdown.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\collide.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\lowfuel.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\crash.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Media\Audio\acceleration startup.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\SpriteSheets\js_roadfighter.json" />
+    <None Include="Media\SpriteSheets\sample.json" />
+    <None Include="Media\Textures\SpriteSheets\1.json" />
+    <None Include="Media\Textures\SpriteSheets\roadfighter.json" />
+  </ItemGroup>
+</Project>
